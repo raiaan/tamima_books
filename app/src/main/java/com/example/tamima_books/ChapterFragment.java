@@ -44,7 +44,6 @@ public class ChapterFragment extends Fragment {
         scrollView= (ScrollView) view.findViewById(R.id.chapter_content);
         title = (TextView) view.findViewById(R.id.chapter_title);
         content=(TextView) view.findViewById(R.id.chapter_text);
-        contentRef.addValueEventListener(listener);
         title.setText(bundle.getString("title","الفصل"));
 
         Glide.with(getActivity())
@@ -58,12 +57,14 @@ public class ChapterFragment extends Fragment {
                         }
                     }
                 });
+        contentRef.addValueEventListener(listener);
         return view;
     }
     ValueEventListener listener = new ValueEventListener() {
         @Override
         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-            content.setText(dataSnapshot.getValue(String.class));
+            String data = dataSnapshot.getValue(String.class);
+            content.setText(data);
         }
 
         @Override
