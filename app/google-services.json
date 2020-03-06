@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "85743601540",
+    "firebase_url": "https://tamima-books.firebaseio.com",
+    "project_id": "tamima-books",
+    "storage_bucket": "tamima-books.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85743601540:android:d8fb59451501b75b55bfd1",
+        "android_client_info": {
+          "package_name": "com.example.tamima_books"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85743601540-1f3calf1ulncvlsnnq07l4re94gbh4dr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tamima_books",
+            "certificate_hash": "c4b068ed9d7f253da31b0f3b663ca7a97b9e3b8b"
+          }
+        },
+        {
+          "client_id": "85743601540-mn3db6oo6sbgffbkv6i3l2c8hp0pos4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmgXWKsJMkDu9GoidQAa0cuJ_2_dlxjmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85743601540-mn3db6oo6sbgffbkv6i3l2c8hp0pos4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

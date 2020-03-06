@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">روايات بقلم تميمة نبيل</string>
+    <string name="title_activity_chapters">ChaptersActivity</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
